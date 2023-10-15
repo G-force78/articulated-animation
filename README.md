@@ -1,3 +1,11 @@
+In an attempt to fix a persistent error I have cloned this with updated files to save time annoyances however the problem still persists, I have given up after trying every solution I can find on the net and through LLM.
+
+Traceback (most recent call last):
+  File "/content/articulated-animation/run.py", line 21, in <module>
+    from frames_dataset import FramesDataset
+ImportError: cannot import name 'FramesDataset' from 'frames_dataset'
+
+
 # Motion Representations for Articulated Animation
 
 This repository contains the source code for the CVPR'2021 paper [Motion Representations for Articulated Animation](https://arxiv.org/abs/2104.11280) by [Aliaksandr Siarohin](https://aliaksandrsiarohin.github.io/aliaksandr-siarohin-website/), [Oliver  Woodford](https://ojwoodford.github.io/), [Jian Ren](https://alanspike.github.io/), [Menglei Chai](https://mlchai.com/) and [Sergey Tulyakov](http://www.stulyakov.com/). 
